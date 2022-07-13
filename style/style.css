@@ -1,23 +1,90 @@
-/* body {background: #FF9900;
-    background: -moz-linear-gradient(left, #FF9900 0%, #FFAA00 53%, #FFC34D 100%);
-    background: -webkit-linear-gradient(left, #FF9900 0%, #FFAA00 53%, #FFC34D 100%);
-    background: linear-gradient(to right, #FF9900 0%, #FFAA00 53%, #FFC34D 100%);;
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 *{
     font-family: 'Roboto' , sans-serif;
-    padding: 0px;
+    /* padding: 0px; */
     margin: 0px;
 }
-
+/* ---------------------------- HEADER ------------------- */
 header{
     background: rgb(51,83,132);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+
+h1 {
     color: white;
 }
 
+.boutonLinkedin {
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.boutonMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 50px;
+    height: 35px;
+    color: white;
+    font-style: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.menu {
+    display: none;
+}
+
+/* ---------------------------- MAIN ---------------------- */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
 
 .photoCV {
     width: 300px;
+    align-self: center;
+    margin: 20px;
 }
+
+h2{
+    text-align: center;
+}
+
+h3{
+    margin-top: 8px;
+}
+
+span{
+    margin: 0px 10px 0px 10px;
+}
+
+h4{
+    margin-top: 6px;
+    padding: 6px 6px 0px 6px;
+    color: rgb(0, 132, 255);
+}
+
+h5{
+    margin-top: 5px;
+}
+
+p{
+    /* margin-top: 6px; */
+    padding:  0px 8px 0px 8px;
+}
+
+/* --------------------------- FOOTER ---------------------------- */
+
+
