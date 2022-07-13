@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@font-face {
+    font-family: "Ubuntu", sans-serif;
+    src: url(./font/Ubuntu-Regular.ttf) format(ttf);
+}
 
 *{
-    font-family: 'Roboto' , sans-serif;
-    /* padding: 0px; */
+    font-family: "Ubuntu", 'Roboto' , sans-serif;
     margin: 0px;
 }
 /* ---------------------------- HEADER ------------------- */
@@ -11,11 +13,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 80px;
+    height: auto;
 }
 
 h1 {
     color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
 }
 
 .boutonLinkedin {
@@ -25,7 +29,7 @@ h1 {
     border-radius: 10px;
 }
 
-.boutonMenu {
+#boutonMenu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +38,6 @@ h1 {
     width: 50px;
     height: 35px;
     color: white;
-    font-style: bold;
 }
 
 .bold {
@@ -60,20 +63,25 @@ main {
 
 h2{
     text-align: center;
+    text-transform: uppercase;
 }
 
 h3{
     margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 span{
-    margin: 0px 10px 0px 10px;
+    margin: 0 10px;
 }
 
 h4{
     margin-top: 6px;
     padding: 6px 6px 0px 6px;
     color: rgb(0, 132, 255);
+    text-transform: uppercase;
 }
 
 h5{
@@ -81,10 +89,11 @@ h5{
 }
 
 p{
-    /* margin-top: 6px; */
-    padding:  0px 8px 0px 8px;
+    padding:  0 8px;
 }
 
 /* --------------------------- FOOTER ---------------------------- */
 
-
+footer{
+    margin-top: 20px;
+}
