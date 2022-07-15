@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Ubuntu", sans-serif;
+    src: url(./font/Ubuntu-Regular.ttf) format(ttf);
+}
+
+*{
+    font-family: "Ubuntu", 'Roboto' , sans-serif;
+    margin: 0px;
+}
+/* ---------------------------- HEADER ------------------- */
+header{
+    background: rgb(51,83,132);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.boutonLinkedin {
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#boutonMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 50px;
+    height: 35px;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.menu {
+    display: none;
+}
+
+/* ---------------------------- MAIN ---------------------- */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.photoCV {
+    width: 300px;
+    align-self: center;
+    margin: 20px;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3{
+    margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+span{
+    margin: 0 10px;
+}
+
+h4{
+    margin-top: 6px;
+    padding: 6px 6px 0px 6px;
+    color: rgb(0, 132, 255);
+    text-transform: uppercase;
+}
+
+h5{
+    margin-top: 5px;
+}
+
+p{
+    padding:  0 8px;
+}
+
+/* --------------------------- FOOTER ---------------------------- */
+
+footer{
+    margin-top: 20px;
+}
